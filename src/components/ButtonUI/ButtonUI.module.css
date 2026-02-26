@@ -1,0 +1,84 @@
+.button {
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Unbounded';
+  font-weight: 400;
+  height: 50px;
+}
+
+.button__text {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+
+.button:disabled {
+  color: #A5A09E;
+  background-color: #4C423D;
+}
+
+/* размеры */
+
+.button--small {
+  width: 150px;
+}
+
+.button--medium {
+  width: 250px;
+}
+
+/* button primary */
+
+.button--primary {
+  background-color: #D27F25;
+}
+
+.button--primary:active {
+  background-color: #FFC98F;
+}
+
+.button--primary:hover {
+  background-color: #FF8400;
+}
+
+.button--primary:focus {
+  background-color: #FFC98F;
+}
+
+/* button secondary */
+
+.button--secondary {
+  background-color: #4C423D;
+}
+
+.button--secondary:active {
+  background-color: #DBD7D5;
+}
+
+.button--secondary:hover {
+  background-color: #A5A09E;
+}
+
+.button--secondary:focus {
+  background-color: #DBD7D5;
+}
+
+/* button accent */
+
+.button--accent {
+  background-color: #2D2929;
+}
+
+.button--accent:active {
+  background-color: #FF8400;
+}
+
+.button--accent:hover {
+  background-color: #D27F25;
+}
+
+.button--accent:focus {
+  background-color: #FF8400;
+}
